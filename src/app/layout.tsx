@@ -1,5 +1,7 @@
 // libs
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 
 // providers
 import { Providers } from "./providers";
@@ -12,18 +14,23 @@ export const metadata: Metadata = {
   description: "Portfólio web - Paulo Henrique Sousa Silva",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages();
+  const locale = await getLocale();
+
   return (
-    <html suppressHydrationWarning lang="pt-br">
+    <html suppressHydrationWarning lang={locale}>
       <body>
-        <Providers>
-          {children}
-        </Providers>
+        <NextIntlClientProvider messages={messages}>
+          <Providers>
+            {children}
+          </Providers>
+        </NextIntlClientProvider>
       </body>
-    </html>
+    </html >
   );
 }
