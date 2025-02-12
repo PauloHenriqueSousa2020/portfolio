@@ -1,5 +1,10 @@
+// components
+import { Box, Flex } from "@chakra-ui/react";
+
 export default function Home() {
   return (
-    <div className="bg-black text-purple-500">Hello world</div>
+    <Flex direction={'column'} gap={2}>
+      <Box layerStyle={'card'} />
+    </Flex>
   );
 }
