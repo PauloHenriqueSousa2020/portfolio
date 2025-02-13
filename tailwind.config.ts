@@ -17,6 +17,9 @@ export default {
         border: 'var(--border)',
 
         shadow: 'var(--shadow)',
+
+        system: 'var(--system)',
+        'system-secondary': 'var(--system-secondary)'
       }
     },
   },

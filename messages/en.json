@@ -4,5 +4,8 @@
     "link2": "Projects",
     "link3": "Skills",
     "link4": "Contact"
+  },
+  "HomePage": {
+    "role": "React Developer"
   }
 }

@@ -4,7 +4,10 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
 // components
-import { Select } from "@chakra-ui/react";
+import { IconButton } from "@chakra-ui/react";
+
+// assets
+import { BR_Flag, US_Flag } from '@/assets';
 
 export function LanguageSelector() {
   const [locale, setLocale] = useState("");
@@ -22,32 +25,24 @@ export function LanguageSelector() {
     }
   }, [router]);
 
-  const handleChangeLocale = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const newLocale = e.target.value as string;
-
+  const handleChangeLocale = (newLocale: string) => {
     setLocale(newLocale);
     document.cookie = `WEBSITE_LOCALE=${newLocale};`
     router.refresh();
   };
 
   return (
-    <Select
-      value={locale}
-      onChange={handleChangeLocale}
-      color={'text'}
-      _focus={{
-        borderColor: 'border',
-        shadow: 'none',
+    <IconButton
+      aria-label={"Button to change language selector"}
+      onClick={() => handleChangeLocale(locale === 'pt' ? 'en' : 'pt')}
+      icon={locale === 'pt' ? <US_Flag /> : <BR_Flag />}
+      bgColor={'system'}
+      borderRadius={'full'}
+      _hover={{
+        bg: 'system-secondary',
+        color: 'system'
       }}
-      sx={{
-        '> option': {
-          background: 'background-secondary',
-          color: 'text',
-        },
-      }}
-    >
-      <option value='br'>BR</option>
-      <option value='en'>EN</option>
-    </Select>
+      size={'sm'}
+    />
   )
 }

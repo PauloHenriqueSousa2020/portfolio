@@ -1,12 +1,14 @@
+'use client'
 // components
-import { Center } from "@chakra-ui/react";
-import { Header } from "@/components";
+import { Box } from "@chakra-ui/react";
+import { Header, HomePage } from "@/components";
 
 export default function Home() {
 
   return (
-    <Center>
+    <Box>
       <Header />
-    </Center>
+      <HomePage />
+    </Box>
   );
 }

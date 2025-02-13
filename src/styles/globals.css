@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.dark {
+:root {
   --background: #F5F6FA;
   --background-secondary: #FFFFFF;
 
@@ -12,9 +12,12 @@
   --border: #D7D8E4;
 
   --shadow: #D7D8E4;
+
+  --system: #170A33;
+  --system-secondary: #4C5095;
 }
 
-:root {
+.dark {
   --background: #1F2937;
   --background-secondary: #19222C;
 
@@ -24,4 +27,7 @@
   --border: #5E6273;
 
   --shadow: #2A2F3E;
+
+  --system: #918CFF;
+  --system-secondary: #C0C3FD;
 }

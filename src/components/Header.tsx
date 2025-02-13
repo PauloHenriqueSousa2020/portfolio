@@ -1,43 +1,20 @@
-// libs
-import { useTranslations } from 'next-intl';
-
 // components
 import { Box, Flex, Spacer, Link, Text, HStack } from '@chakra-ui/react';
-import { LanguageSelector } from './LanguageSelector';
+import { LanguageSelector, LinkOptions, ThemeSwitch } from '@/components';
 
 export function Header() {
-  const t = useTranslations('Header');
-
   return (
-    <Box w={'100%'} p={4}>
+    <Box position={'fixed'} w={'100%'} p={4} bg={'background-secondary'} zIndex={10}>
       <Flex align={'center'}>
         <Link href={'#'} mx={2}>
-          <Text>
+          <Text fontSize={'sm'} color={'system-secondary'} _hover={{ textDecoration: 'underline' }}>
             @PauloHenriqueSousa2020
           </Text>
         </Link>
         <Spacer />
-        <HStack spacing={10}>
-          <Link href={'#about'} mx={2}>
-            <Text>
-              {t('link1')}
-            </Text>
-          </Link>
-          <Link href={'#projects'} mx={2}>
-            <Text>
-              {t('link2')}
-            </Text>
-          </Link>
-          <Link href={'#skills'} mx={2}>
-            <Text>
-              {t('link3')}
-            </Text>
-          </Link>
-          <Link href={'#contact'} mx={2}>
-            <Text>
-              {t('link4')}
-            </Text>
-          </Link>
+        <HStack spacing={4}>
+          <LinkOptions />
+          <ThemeSwitch />
           <LanguageSelector />
         </HStack>
       </Flex>
