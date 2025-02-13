@@ -30,9 +30,10 @@ export function SocialMedia() {
       alignItems={'center'}
       justifyContent={'center'}
       gap={2}
-      position={'absolute'}
+      position={'fixed'}
       left={4}
       bottom={0}
+      display={['none', 'none', 'flex']}
     >
       {socialMedias.map((socialMedia, index) => (
         <IconButton

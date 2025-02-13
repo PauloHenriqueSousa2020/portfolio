@@ -1,7 +1,7 @@
 'use client'
 // components
 import { Box } from "@chakra-ui/react";
-import { Header, HomePage } from "@/components";
+import { AboutMe, Header, HomePage } from "@/components";
 
 export default function Home() {
 
@@ -9,6 +9,7 @@ export default function Home() {
     <Box>
       <Header />
       <HomePage />
+      <AboutMe />
     </Box>
   );
 }

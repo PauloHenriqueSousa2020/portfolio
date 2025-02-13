@@ -28,9 +28,10 @@ export function HomePage() {
       direction={'column'}
       justifyContent={'center'}
       alignItems={'center'}
-      h={'100vh'}
+      minH={'100vh'}
       w={'100%'}
       position={'relative'}
+      mb={20}
     >
       <SocialMedia />
       <VStack spacing={10}>

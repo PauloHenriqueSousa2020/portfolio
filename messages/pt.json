@@ -7,5 +7,15 @@
   },
   "HomePage": {
     "role": "Desenvolvedor React"
+  },
+  "AboutMe": {
+    "header": "SOBRE MIM",
+    "name": "nome",
+    "age": "idade",
+    "address": "endereço",
+    "role": "função",
+    "description1": "Desenvolvedor Front-End | React JS e Next JS | Javascript e Typescript. Sou um desenvolvedor front-end com experiência sólida em React JS e Next JS.",
+    "description2": "Minhas habilidades incluem: domínio de React JS, com ênfase em construção de componentes reutilizáveis e arquitetura escalável; proficiência em Next JS para desenvolvimento de aplicações web altamente performáticas e otimizadas para SEO; experiência em Styled Components e Tailwind CSS para criação de interfaces responsivas; sólido conhecimento em Javascript e Typescript, garantindo código limpo, legível e de fácil manutenção; e experiência em testes unitários com Cypress, assegurando a qualidade do código e a robustez das aplicações.",
+    "description3": "Além de contribuir ativamente no desenvolvimento de novas funcionalidades, também sou envolvido no processo de definição de atividades e na manutenção de projetos existentes. Tenho uma abordagem proativa para resolver problemas e estou sempre buscando aprender e me atualizar nas últimas tendências do desenvolvimento web."
   }
 }

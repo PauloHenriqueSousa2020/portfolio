@@ -33,7 +33,7 @@ export function LinkOptions() {
 
   return (
     <Box>
-      <Box className="hidden lg:block">
+      <Box display={['none', 'none', 'block']}>
         <HStack spacing={2}>
           {headerOptions.map((header, index) => (
             <Link key={index} href={header.href} mx={2}>
@@ -47,7 +47,8 @@ export function LinkOptions() {
           ))}
         </HStack>
       </Box>
-      <Box className="lg:hidden">
+
+      <Box display={['block', 'block', 'none']}>
         <IconButton colorScheme='blue' onClick={onOpen} aria-label="Hamburguer Menu Options" icon={<CiMenuBurger />} />
         <Drawer placement={'bottom'} onClose={onClose} isOpen={isOpen}>
           <DrawerOverlay />

@@ -15,6 +15,10 @@ export const chakraTheme = extendTheme({
 
       body: {
         backgroundColor: 'var(--background)',
+      },
+
+      html: {
+        scrollBehavior: "smooth"
       }
     }
   },

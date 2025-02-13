@@ -1,3 +1,4 @@
+export { AboutMe } from "./AboutMe";
 export { Header } from "./Header";
 export { HomePage } from "./HomePage";
 export { LanguageSelector } from "./LanguageSelector";
