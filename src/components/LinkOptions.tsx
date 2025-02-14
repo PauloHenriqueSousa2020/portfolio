@@ -28,16 +28,15 @@ export function LinkOptions() {
     { title: t('link1'), href: "#about" },
     { title: t('link2'), href: "#projects" },
     { title: t('link3'), href: "#skills" },
-    { title: t('link4'), href: "#contact" },
   ]
 
   return (
     <Box>
       <Box display={['none', 'none', 'block']}>
-        <HStack spacing={2}>
+        <HStack spacing={10}>
           {headerOptions.map((header, index) => (
             <Link key={index} href={header.href} mx={2}>
-              <Text _hover={{
+              <Text color={'system'} _hover={{
                 textDecoration: 'underline',
                 color: 'system-secondary'
               }}>

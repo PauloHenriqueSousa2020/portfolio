@@ -2,8 +2,7 @@
   "Header": {
     "link1": "About",
     "link2": "Projects",
-    "link3": "Skills",
-    "link4": "Contact"
+    "link3": "Skills"
   },
   "HomePage": {
     "role": "React Developer",
@@ -20,9 +19,7 @@
     "description3": "In addition to actively contributing to the development of new features, I'm also involved in defining activities and maintaining existing projects. I have a proactive approach to problem-solving and am always seeking to learn and stay updated on the latest trends in web development."
   },
   "Projects": {
-    "header": "Projects"
-  },
-  "Carousel": {
+    "header": "Projects",
     "starWars": "Frontend application to list and search for Star Wars planets using the SWAPI API, featuring planet listing and search functionalities, responsive design, and themes.",
     "githubBlog": "React JS application developed with the goal of creating a personal blog, consuming the GitHub API to display posts as repository issues.",
     "todoList": "React JS application developed to manage tasks, with features to add, complete, remove, and display completion progress.",
@@ -30,5 +27,11 @@
     "coffeeDelivery": "React JS application to manage a coffee shop shopping cart, with product listing, item addition and removal, address form, and display of item total and purchase value.",
     "marvelProject": "Frontend application to list and search for Marvel comics using the MARVEL API.",
     "helpet": "Application developed and presented as a final project for the Computer Engineering course, with the goal of assisting in the fight for the adoption of animals in street situations."
+  },
+  "Skills": {
+    "header": "Skills"
+  },
+  "Footer": {
+    "text": "Developed by @PauloHenriqueSousa2020"
   }
 }

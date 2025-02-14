@@ -7,12 +7,12 @@ export function Header() {
     <Box position={'fixed'} w={'100%'} p={4} bg={'background-secondary'} zIndex={10}>
       <Flex align={'center'}>
         <Link href={'#'} mx={2}>
-          <Text fontSize={'sm'} color={'system-secondary'} _hover={{ textDecoration: 'underline' }}>
+          <Text fontSize={['sm', 'md', 'lg']} color={'system-secondary'} _hover={{ textDecoration: 'underline' }}>
             @PauloHenriqueSousa2020
           </Text>
         </Link>
         <Spacer />
-        <HStack spacing={4}>
+        <HStack spacing={[4, 6, 8]}>
           <LinkOptions />
           <ThemeSwitch />
           <LanguageSelector />

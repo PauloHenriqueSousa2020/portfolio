@@ -2,8 +2,7 @@
   "Header": {
     "link1": "Sobre",
     "link2": "Projetos",
-    "link3": "Habilidades",
-    "link4": "Contato"
+    "link3": "Habilidades"
   },
   "HomePage": {
     "role": "Desenvolvedor React",
@@ -20,9 +19,7 @@
     "description3": "Além de contribuir ativamente no desenvolvimento de novas funcionalidades, também sou envolvido no processo de definição de atividades e na manutenção de projetos existentes. Tenho uma abordagem proativa para resolver problemas e estou sempre buscando aprender e me atualizar nas últimas tendências do desenvolvimento web."
   },
   "Projects": {
-    "header": "Projetos"
-  },
-  "Carousel": {
+    "header": "Projetos",
     "starWars": "Aplicação frontend para listar e buscar por planetas de Star Wars usando a API SWAPI que tem como funcionalidades listar e buscar planetas, design responsivo e themes.",
     "githubBlog": "Aplicação React JS desenvolvida com a proposta de criar um blog pessoal, consumindo a API do GitHub para exibir publicações como issues de um repositório.",
     "todoList": "Aplicação React JS desenvolvida para gerenciar tarefas, com funcionalidades de adicionar, concluir, remover e exibir o progresso de conclusão.",
@@ -30,5 +27,11 @@
     "coffeeDelivery": "Aplicação React JS para gerenciar o carrinho de compras de uma cafeteria, com listagem de produtos, adição e remoção de itens, formulário de endereço e exibição do total de itens e valor da compra.",
     "marvelProject": "Aplicação frontend para listar e buscar por quadrinhos da Marvel usando a API MARVEL.",
     "helpet": "Aplicação desenvolvida e apresentada como projeto de conclusão do curso de Engenharia de Computação, com o intuito de auxiliar na luta pela adoção de animais em situação de rua."
-  }  
+  },
+  "Skills": {
+    "header": "Habilidades"
+  },
+  "Footer": {
+    "text": "Desenvolvido por @PauloHenriqueSousa2020"
+  }
 }
