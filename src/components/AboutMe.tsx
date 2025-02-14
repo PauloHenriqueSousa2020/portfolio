@@ -49,7 +49,7 @@ export function AboutMe() {
 
         <Divider display={['flex', 'none', 'none']} />
 
-        <Box textAlign={'justify'} w={['100%', '100%', '80%', '30%']} fontSize={'lg'} >
+        <Box textAlign={'justify'} w={['100%', '100%', '80%', '30%']} fontSize={['md', 'lg', 'lg']} >
           <Text mb={4}>
             {t('description1')}
           </Text>

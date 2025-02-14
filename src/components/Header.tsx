@@ -4,7 +4,7 @@ import { LanguageSelector, LinkOptions, ThemeSwitch } from '@/components';
 
 export function Header() {
   return (
-    <Box position={'fixed'} w={'100%'} p={4} bg={'background-secondary'} zIndex={10}>
+    <Box position={'fixed'} w={'100%'} p={4} mt={-1} bg={'background-secondary'} zIndex={10}>
       <Flex align={'center'}>
         <Link href={'#'} mx={2}>
           <Text
@@ -21,8 +21,8 @@ export function Header() {
         <Spacer />
         <HStack spacing={[4, 6, 8]}>
           <LinkOptions />
-          <ThemeSwitch />
           <LanguageSelector />
+          <ThemeSwitch />
         </HStack>
       </Flex>
     </Box>
