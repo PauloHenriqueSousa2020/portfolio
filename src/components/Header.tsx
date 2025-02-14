@@ -4,8 +4,8 @@ import { LanguageSelector, LinkOptions, ThemeSwitch } from '@/components';
 
 export function Header() {
   return (
-    <Box position={'fixed'} w={'100%'} p={4} mt={-1} bg={'background-secondary'} zIndex={10}>
-      <Flex align={'center'}>
+    <Box  w={'100%'}>
+      <Flex zIndex={10} w={'100%'} p={4} mt={-1} bg={'background-secondary'} position={'fixed'}  align={'center'}>
         <Link href={'#'} mx={2}>
           <Text
             fontSize={['sm', 'md', 'lg']}
