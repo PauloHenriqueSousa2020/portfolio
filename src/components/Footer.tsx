@@ -12,10 +12,8 @@ export function Footer() {
 
   return (
     <Flex
-      w={'100%'}
       align={'center'}
       justifyContent={'center'}
-      bg={'background-secondary'}
       direction={'column'}
       p={4}
     >

@@ -17,18 +17,16 @@ export function AboutMe() {
   return (
     <VStack
       id={'about'}
-      w={'100%'}
-      minH={'100vh'}
+      minH={'calc(100vh + 60px)'}
       justifyContent={'center'}
       spacing={[5, 10, 20]}
-      mb={8}
       padding={[2, 20]}
     >
       <Heading
         color={'system'}
         my={[2, 4, 8]}
       >
-        {`<${t('header')} />`}
+        {t('header')}
       </Heading>
 
       <Flex
@@ -38,18 +36,18 @@ export function AboutMe() {
         direction={['column', 'column', 'column', 'row']}
         paddingX={10}
       >
-        <Flex direction={'column'} alignItems={'center'} gap={[10]}>
+        <Box>
           <Avatar
             src='https://avatars.githubusercontent.com/u/40511257?v=4'
-            w={'240px'}
-            h={'240px'}
+            w={['120px', '240px']}
+            h={['120px', '240px']}
           />
-          <Text as={'pre'}>{text}</Text>
-        </Flex>
+          <Text display={['none', 'flex', 'flex']} as={'pre'} mt={10}>{text}</Text>
+        </Box>
 
         <Divider display={['flex', 'none', 'none']} />
 
-        <Box textAlign={'justify'} w={['100%', '100%', '80%', '30%']} fontSize={['md', 'lg', 'lg']} >
+        <Box textAlign={'justify'} w={['90%', '90%', '80%', '30%']} fontSize={['md', 'lg', 'lg']} >
           <Text mb={4}>
             {t('description1')}
           </Text>

@@ -13,11 +13,9 @@ export function Skills() {
   return (
     <VStack
       id={'skills'}
-      w={'100%'}
-      minH={'100vh'}
+      minH={'calc(100vh + 60px)'}
       justifyContent={'flex-start'}
       spacing={[5, 10, 20]}
-      mb={8}
       padding={[2, 20]}
     >
       <Heading

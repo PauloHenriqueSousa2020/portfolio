@@ -4,8 +4,14 @@ import { LanguageSelector, LinkOptions, ThemeSwitch } from '@/components';
 
 export function Header() {
   return (
-    <Box  w={'100%'}>
-      <Flex zIndex={10} w={'100%'} p={4} mt={-1} bg={'background-secondary'} position={'fixed'}  align={'center'}>
+    <Box
+      position={'fixed'}
+      w={'100%'}
+      bg={'background-secondary'}
+      p={4}
+      zIndex={10}
+    >
+      <Flex align={'center'}>
         <Link href={'#'} mx={2}>
           <Text
             fontSize={['sm', 'md', 'lg']}
@@ -21,8 +27,8 @@ export function Header() {
         <Spacer />
         <HStack spacing={[4, 6, 8]}>
           <LinkOptions />
-          <LanguageSelector />
           <ThemeSwitch />
+          <LanguageSelector />
         </HStack>
       </Flex>
     </Box>
