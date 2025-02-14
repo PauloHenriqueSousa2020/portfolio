@@ -17,7 +17,20 @@ export function ThemeSwitch() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null
+  if (!mounted) return (
+    <IconButton
+      aria-label="Theme Switch Button"
+      icon={<IoSunny size={16} />}
+      bgColor={'system-secondary'}
+      color={'background-secondary'}
+      borderRadius={'full'}
+      _hover={{
+        bg: 'system',
+        color: 'background'
+      }}
+      size={'sm'}
+    />
+  )
 
   const currentTheme = theme === 'system' ? systemTheme : theme;
   
