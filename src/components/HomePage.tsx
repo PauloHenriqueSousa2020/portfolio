@@ -30,7 +30,7 @@ export function HomePage() {
       alignItems={'center'}
       minH={'calc(100vh + 60px)'}
       position={'relative'}
-      mb={20}
+      mb={[20, 5]}
     >
       <SocialMedia />
       <VStack spacing={10}>

@@ -78,7 +78,7 @@ export function Projects() {
       justifyContent={'flex-start'}
       spacing={[5, 10, 20]}
       padding={[2, 20]}
-      mb={20}
+      mb={[20, 5]}
     >
       <Heading
         color={'system'}

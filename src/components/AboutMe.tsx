@@ -21,13 +21,13 @@ export function AboutMe() {
       justifyContent={'center'}
       spacing={[5, 10, 20]}
       padding={[2, 20]}
-      mb={20}
+      mb={[20, 5]}
     >
       <Heading
         color={'system'}
         my={[2, 4, 8]}
       >
-        {t('header')}
+        {`<${t('header')} />`}
       </Heading>
 
       <Flex
