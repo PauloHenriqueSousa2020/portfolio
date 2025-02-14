@@ -74,10 +74,11 @@ export function Projects() {
   return (
     <VStack
       id={'projects'}
-      minH={'calc(100vh + 60px)'}
+      minH={'100vh'}
       justifyContent={'flex-start'}
       spacing={[5, 10, 20]}
       padding={[2, 20]}
+      mb={20}
     >
       <Heading
         color={'system'}

@@ -16,6 +16,7 @@ export function Footer() {
       justifyContent={'center'}
       direction={'column'}
       p={4}
+      bg={'background-secondary'}
     >
       <Flex gap={8} mb={4}>
         {socialMedias.map((socialMedia, index) => (

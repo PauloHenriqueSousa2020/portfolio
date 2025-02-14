@@ -21,6 +21,7 @@ export function AboutMe() {
       justifyContent={'center'}
       spacing={[5, 10, 20]}
       padding={[2, 20]}
+      mb={20}
     >
       <Heading
         color={'system'}
