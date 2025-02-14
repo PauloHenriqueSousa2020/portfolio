@@ -10,7 +10,7 @@ export function Header() {
           <Text fontSize={'sm'} color={'system-secondary'} _hover={{ textDecoration: 'underline' }}>
             @PauloHenriqueSousa2020
           </Text>
-        </Link>a
+        </Link>
         <Spacer />
         <HStack spacing={4}>
           <LinkOptions />

@@ -73,6 +73,9 @@ export function HomePage() {
             opacity: 1
           }}
           size={'lg'}
+          as={'a'}
+          href={t('curriculum')}
+          target="_blank"
         >
           Download CV
         </Button>

@@ -6,10 +6,11 @@
     "link4": "Contato"
   },
   "HomePage": {
-    "role": "Desenvolvedor React"
+    "role": "Desenvolvedor React",
+    "curriculum": "curriculo.pdf"
   },
   "AboutMe": {
-    "header": "SOBRE MIM",
+    "header": "Sobre_Mim",
     "name": "nome",
     "age": "idade",
     "address": "endereço",
@@ -17,5 +18,17 @@
     "description1": "Desenvolvedor Front-End | React JS e Next JS | Javascript e Typescript. Sou um desenvolvedor front-end com experiência sólida em React JS e Next JS.",
     "description2": "Minhas habilidades incluem: domínio de React JS, com ênfase em construção de componentes reutilizáveis e arquitetura escalável; proficiência em Next JS para desenvolvimento de aplicações web altamente performáticas e otimizadas para SEO; experiência em Styled Components e Tailwind CSS para criação de interfaces responsivas; sólido conhecimento em Javascript e Typescript, garantindo código limpo, legível e de fácil manutenção; e experiência em testes unitários com Cypress, assegurando a qualidade do código e a robustez das aplicações.",
     "description3": "Além de contribuir ativamente no desenvolvimento de novas funcionalidades, também sou envolvido no processo de definição de atividades e na manutenção de projetos existentes. Tenho uma abordagem proativa para resolver problemas e estou sempre buscando aprender e me atualizar nas últimas tendências do desenvolvimento web."
-  }
+  },
+  "Projects": {
+    "header": "Projetos"
+  },
+  "Carousel": {
+    "starWars": "Aplicação frontend para listar e buscar por planetas de Star Wars usando a API SWAPI que tem como funcionalidades listar e buscar planetas, design responsivo e themes.",
+    "githubBlog": "Aplicação React JS desenvolvida com a proposta de criar um blog pessoal, consumindo a API do GitHub para exibir publicações como issues de um repositório.",
+    "todoList": "Aplicação React JS desenvolvida para gerenciar tarefas, com funcionalidades de adicionar, concluir, remover e exibir o progresso de conclusão.",
+    "igniteTimer": "Aplicação desenvolvida com React JS que possui funcionalidades de um POMODORO para marcar um cronômetro, interromper e visualizar o histórico de ciclos criados.",
+    "coffeeDelivery": "Aplicação React JS para gerenciar o carrinho de compras de uma cafeteria, com listagem de produtos, adição e remoção de itens, formulário de endereço e exibição do total de itens e valor da compra.",
+    "marvelProject": "Aplicação frontend para listar e buscar por quadrinhos da Marvel usando a API MARVEL.",
+    "helpet": "Aplicação desenvolvida e apresentada como projeto de conclusão do curso de Engenharia de Computação, com o intuito de auxiliar na luta pela adoção de animais em situação de rua."
+  }  
 }

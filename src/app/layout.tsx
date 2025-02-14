@@ -10,8 +10,8 @@ import { Providers } from "./providers";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Web Portfólio",
-  description: "Portfólio web - Paulo Henrique Sousa Silva",
+  title: "Paulo Henrique Sousa",
+  description: "Portfólio Web - Paulo Henrique Sousa Silva",
 };
 
 export default async function RootLayout({

@@ -1,7 +1,10 @@
 export { AboutMe } from "./AboutMe";
+export { Carousel } from "./Carousel";
+export { CarouselItem } from "./CarouselItem";
 export { Header } from "./Header";
 export { HomePage } from "./HomePage";
 export { LanguageSelector } from "./LanguageSelector";
 export { LinkOptions } from "./LinkOptions";
+export { Projects } from "./Projects";
 export { SocialMedia } from "./SocialMedia";
 export { ThemeSwitch } from "./ThemeSwitch";
