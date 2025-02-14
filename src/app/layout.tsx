@@ -12,6 +12,11 @@ import "@/styles/globals.css";
 export const metadata: Metadata = {
   title: "Paulo Henrique Sousa",
   description: "Portfólio Web - Paulo Henrique Sousa Silva",
+  icons: {
+    icon: [
+      { url: '/icon.png' },
+    ]
+  }
 };
 
 export default async function RootLayout({
@@ -31,6 +36,6 @@ export default async function RootLayout({
           </Providers>
         </NextIntlClientProvider>
       </body>
-    </html >
+    </html>
   );
 }

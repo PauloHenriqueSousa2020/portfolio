@@ -36,10 +36,14 @@ export function LinkOptions() {
         <HStack spacing={10}>
           {headerOptions.map((header, index) => (
             <Link key={index} href={header.href} mx={2}>
-              <Text color={'system'} _hover={{
-                textDecoration: 'underline',
-                color: 'system-secondary'
-              }}>
+              <Text
+                color={'system'}
+                fontWeight={600}
+                _hover={{
+                  textDecoration: 'underline',
+                  color: 'system-secondary'
+                }}
+              >
                 {header.title}
               </Text>
             </Link>
@@ -55,10 +59,14 @@ export function LinkOptions() {
             <DrawerBody>
               {headerOptions.map((header, index) => (
                 <Link key={index} href={header.href} mx={2}>
-                  <Text _hover={{
-                    textDecoration: 'underline',
-                    color: 'system-secondary'
-                  }}>
+                  <Text
+                    color={'system'}
+                    fontWeight={600}
+                    _hover={{
+                      textDecoration: 'underline',
+                      color: 'system-secondary'
+                    }}
+                  >
                     {header.title}
                   </Text>
                 </Link>

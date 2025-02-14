@@ -31,3 +31,20 @@
   --system: #918CFF;
   --system-secondary: #C0C3FD;
 }
+
+::-webkit-scrollbar-track {
+  margin: 4px 0px 0px 0px;
+  border-radius: 10px;
+  background: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--system);
+}

@@ -7,7 +7,14 @@ export function Header() {
     <Box position={'fixed'} w={'100%'} p={4} bg={'background-secondary'} zIndex={10}>
       <Flex align={'center'}>
         <Link href={'#'} mx={2}>
-          <Text fontSize={['sm', 'md', 'lg']} color={'system-secondary'} _hover={{ textDecoration: 'underline' }}>
+          <Text
+            fontSize={['sm', 'md', 'lg']}
+            color={'system-secondary'}
+            fontWeight={600}
+            _hover={{
+              textDecoration: 'underline'
+            }}
+          >
             @PauloHenriqueSousa2020
           </Text>
         </Link>
