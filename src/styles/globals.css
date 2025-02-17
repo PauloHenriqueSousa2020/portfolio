@@ -15,6 +15,9 @@
 
   --system: #170A33;
   --system-secondary: #4C5095;
+
+  --tic-tac-toe-finish: #989AB8;
+  --tic-tac-toe-color: #1F2937;
 }
 
 .dark {
@@ -30,6 +33,9 @@
 
   --system: #918CFF;
   --system-secondary: #C0C3FD;
+
+  --tic-tac-toe-finish: #19222C;
+  --tic-tac-toe-color: #F5F6FA;
 }
 
 ::-webkit-scrollbar-track {

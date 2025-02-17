@@ -9,3 +9,4 @@ export { Projects } from "./Projects";
 export { Skills } from "./Skills";
 export { SocialMedia } from "./SocialMedia";
 export { ThemeSwitch } from "./ThemeSwitch";
+export { TicTacToe } from "./TicTacToe";

@@ -19,7 +19,10 @@ export default {
         shadow: 'var(--shadow)',
 
         system: 'var(--system)',
-        'system-secondary': 'var(--system-secondary)'
+        'system-secondary': 'var(--system-secondary)',
+
+        'tic-tac-toe-finish': 'var(--tic-tac-toe-finish)',
+        'tic-tac-toe-color': 'var(--tic-tac-toe-color)',
       }
     },
   },

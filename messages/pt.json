@@ -2,7 +2,8 @@
   "Header": {
     "link1": "Sobre",
     "link2": "Projetos",
-    "link3": "Habilidades"
+    "link3": "Habilidades",
+    "link4": "Jogo da Velha"
   },
   "HomePage": {
     "role": "Desenvolvedor React",
@@ -32,5 +33,11 @@
   },
   "Footer": {
     "text": "Desenvolvido por @PauloHenriqueSousa2020"
+  },
+  "TicTacToe": {
+    "winner": "Vencedor",
+    "reset": "Resetar",
+    "tie": "Empate",
+    "header": "Jogo da Velha"
   }
 }

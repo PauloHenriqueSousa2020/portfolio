@@ -28,6 +28,7 @@ export function LinkOptions() {
     { title: t('link1'), href: "#about" },
     { title: t('link2'), href: "#projects" },
     { title: t('link3'), href: "#skills" },
+    { title: t('link4'), href: "#tictactoe" }
   ]
 
   return (

@@ -2,7 +2,8 @@
   "Header": {
     "link1": "About",
     "link2": "Projects",
-    "link3": "Skills"
+    "link3": "Skills",
+    "link4": "Tic Tac Toe"
   },
   "HomePage": {
     "role": "React Developer",
@@ -32,5 +33,11 @@
   },
   "Footer": {
     "text": "Developed by @PauloHenriqueSousa2020"
+  },
+  "TicTacToe": {
+    "winner": "Winner",
+    "reset": "Reset",
+    "tie": "Tie",
+    "header": "TicTacToe"
   }
 }
