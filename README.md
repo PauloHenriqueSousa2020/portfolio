@@ -4,7 +4,7 @@ Este é o repositório do meu portfólio pessoal, uma landing page desenvolvida 
 
 ## 🔗 Link para o Portfólio
 
-[Acesse meu portfólio aqui]([portfolio-oqo82v0h5-paulo-henriques-projects-b69c95b5.vercel.app](https://paulohenriquesousa2020.vercel.app))
+[Acesse meu portfólio aqui](https://paulohenriquesousa2020.vercel.app)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -22,6 +22,7 @@ As seguintes tecnologias foram utilizadas na construção deste projeto:
 - Exibição de informações pessoais e profissionais.
 - Theme Switch (Alternância entre temas claro e escuro).
 - Internacionalização (i18n) com suporte para **Português** e **Inglês**.
+- Responsividade.
 
 ## 📷 Preview
 
@@ -50,5 +51,4 @@ npm run dev
 Este projeto está sob a licença MIT. Sinta-se à vontade para contribuir e aprimorar!
 
 ---
-Feito por [Paulo Henrique Sousa Silva]([https://www.linkedin.com/in/seu-linkedin/](https://www.linkedin.com/in/paulo-henrique2020/))
-
+Desenvolvido por [Paulo Henrique Sousa Silva](https://www.linkedin.com/in/paulo-henrique2020/).
