@@ -19,7 +19,7 @@ export function Projects() {
       src: 'star_wars.png',
       demo: 'https://frontend-exercise-ten.vercel.app',
       description: t('starWars'),
-      skills: ['REACT JS', 'NEXT JS', 'TYPESCRIPT', 'HTML', 'CSS', 'TAILWIND CSS', 'SWR', 'JEST'],
+      skills: ['REACT JS', 'NEXT JS', 'TYPESCRIPT', 'HTML', 'CSS', 'SWR', 'JEST'],
     },
     {
       title: 'Coffe Delivery',
@@ -35,7 +35,7 @@ export function Projects() {
       src: 'marvel_project.png',
       demo: 'https://paulohenriquesousa2020.github.io/marvel_project/',
       description: t('marvelProject'),
-      skills: ['REACT JS', 'TYPESCRIPT', 'HTML', 'CSS', 'STYLED COMPONENTS', 'REACT TESTING LIBRARY', 'YUP'],
+      skills: ['REACT JS', 'TYPESCRIPT', 'HTML', 'CSS', 'STYLED COMPONENTS', 'YUP'],
     },
     {
       title: 'HELPet',
@@ -43,7 +43,7 @@ export function Projects() {
       src: 'helpet.png',
       demo: '',
       description: t('helpet'),
-      skills: ['REACT JS', 'REACT NATIVE', 'NODE JS', 'TYPESCRIPT', 'HTML', 'STYLED COMPONENTS', 'REACT TESTING LIBRARY', 'YUP'],
+      skills: ['REACT JS', 'REACT NATIVE', 'NODE JS', 'TYPESCRIPT', 'HTML', 'STYLED COMPONENTS', 'YUP'],
     },
     {
       title: 'Github Blog',
