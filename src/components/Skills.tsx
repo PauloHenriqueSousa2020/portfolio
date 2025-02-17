@@ -2,22 +2,24 @@
 import { useTranslations } from "next-intl";
 
 // components
-import { Box, Heading, SimpleGrid, Tooltip, VStack } from "@chakra-ui/react";
-import { skills } from "@/constants/skills";
+import { Box, Flex, Heading, SimpleGrid, Tooltip } from "@chakra-ui/react";
 
 // constants
+import { skills } from "@/constants/skills";
 
 export function Skills() {
   const t = useTranslations("Skills");
 
   return (
-    <VStack
+    <Flex
       id={'skills'}
+      direction={'column'}
+      justifyContent={'center'}
+      alignItems={'center'}
       minH={'calc(100vh + 60px)'}
-      justifyContent={'flex-start'}
-      spacing={[5, 10, 20]}
-      padding={[2, 20]}
+      position={'relative'}
       mb={[20, 5]}
+      gap={[5, 10, 20]}
     >
       <Heading
         color={'system'}
@@ -39,7 +41,7 @@ export function Skills() {
             <Box
               bg={'background-secondary'}
               color={'system'}
-              padding={[5, 5, 10]}
+              padding={[3, 5, 10]}
               borderRadius={'md'}
               boxShadow={'0 0 2px 2px var(--shadow)'}
               fontSize={'6xl'}
@@ -49,7 +51,6 @@ export function Skills() {
           </Tooltip>
         ))}
       </SimpleGrid>
-
-    </VStack>
+    </Flex>
   )
 }

@@ -2,7 +2,7 @@
 import { useTranslations } from 'next-intl';
 
 // components
-import { Avatar, Flex, VStack, Text, Box, Divider, Heading } from '@chakra-ui/react';
+import { Avatar, Flex, Text, Box, Divider, Heading } from '@chakra-ui/react';
 
 export function AboutMe() {
   const t = useTranslations('AboutMe');
@@ -15,13 +15,15 @@ export function AboutMe() {
     };`
 
   return (
-    <VStack
+    <Flex
       id={'about'}
-      minH={'calc(100vh + 60px)'}
+      direction={'column'}
       justifyContent={'center'}
-      spacing={[5, 10, 20]}
-      padding={[2, 20]}
+      alignItems={'center'}
+      minH={'calc(100vh + 60px)'}
+      position={'relative'}
       mb={[20, 5]}
+      gap={[5, 10, 20]}
     >
       <Heading
         color={'system'}
@@ -60,6 +62,6 @@ export function AboutMe() {
           </Text>
         </Box>
       </Flex>
-    </VStack>
+    </Flex>
   )
 }

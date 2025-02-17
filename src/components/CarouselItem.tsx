@@ -21,7 +21,7 @@ export function CarouselItem({ item }: CarouselItemProps) {
   return (
     <Flex
       borderRadius={'lg'}
-      minH={'480px'}
+      minH={['320px', '480px']}
       bg={'background-secondary'}
       boxShadow={'0 0 8px 2px var(--shadow)'}
       direction={'column'}

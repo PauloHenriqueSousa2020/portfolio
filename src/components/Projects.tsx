@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // components
-import { Box, VStack, Heading } from '@chakra-ui/react';
+import { Box, Heading, Flex } from '@chakra-ui/react';
 import { CarouselItem } from './CarouselItem';
 
 export function Projects() {
@@ -72,13 +72,15 @@ export function Projects() {
   ]
 
   return (
-    <VStack
+    <Flex
       id={'projects'}
-      minH={'100vh'}
-      justifyContent={'flex-start'}
-      spacing={[5, 10, 20]}
-      padding={[2, 20]}
+      direction={'column'}
+      justifyContent={'center'}
+      alignItems={'center'}
+      minH={'calc(100vh + 60px)'}
+      position={'relative'}
       mb={[20, 5]}
+      gap={[5, 10, 20]}
     >
       <Heading
         color={'system'}
@@ -136,6 +138,6 @@ export function Projects() {
         `}
         </style>
       </Box>
-    </VStack>
+    </Flex>
   );
 }
