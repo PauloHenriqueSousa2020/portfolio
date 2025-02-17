@@ -93,7 +93,7 @@ export function Projects() {
         width={'100%'}
         maxWidth={'1200px'}
         margin={'0 auto'}
-        padding={4}
+        padding={[4, 10, 20]}
       >
         <Swiper
           modules={[Pagination]}

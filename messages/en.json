@@ -12,7 +12,6 @@
     "header": "About_Me",
     "name": "name",
     "age": "age",
-    "address": "address",
     "role": "role",
     "description1": "Front-End Developer | React JS and Next JS | Javascript and Typescript. I'm a front-end developer with solid experience in React JS and Next JS.",
     "description2": "My skills include: mastery of React JS, with an emphasis on building reusable components and scalable architecture; proficiency in Next JS for developing highly performant web applications optimized for SEO; experience with Styled Components and Tailwind CSS for creating responsive interfaces; strong knowledge in Javascript and Typescript, ensuring clean, readable, and easily maintainable code; and experience in unit testing with Cypress, ensuring code quality and application robustness.",

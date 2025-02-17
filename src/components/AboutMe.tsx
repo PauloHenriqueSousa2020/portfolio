@@ -7,12 +7,11 @@ import { Avatar, Flex, Text, Box, Divider, Heading } from '@chakra-ui/react';
 export function AboutMe() {
   const t = useTranslations('AboutMe');
 
-  const text = `    const profile = {
-      ${t('name')}: 'Paulo Henrique Sousa Silva',
-      ${t('age')}: 27,
-      ${t('address')}: 'Vitória da Conquista - BA',
-      ${t('role')}: 'Front-End',
-    };`
+  const text = `const profile = {
+    ${t('name')}: 'Paulo Henrique Sousa',
+    ${t('age')}: 27,
+    ${t('role')}: 'Front-End',
+};`
 
   return (
     <Flex
@@ -39,16 +38,21 @@ export function AboutMe() {
         direction={['column', 'column', 'column', 'row']}
         paddingX={10}
       >
-        <Box>
+        <Flex
+          direction={'column'}
+          alignItems={'center'}
+          justifyContent={'center'}
+          gap={[2, 5, 10]}
+        >
           <Avatar
             src='https://avatars.githubusercontent.com/u/40511257?v=4'
-            w={['120px', '240px']}
-            h={['120px', '240px']}
+            w={['160px', '200px']}
+            h={['160px', '200px']}
           />
-          <Text display={['none', 'flex', 'flex']} as={'pre'} mt={10}>{text}</Text>
-        </Box>
+          <Text as={'pre'} mt={10}>{text}</Text>
+        </Flex>
 
-        <Divider display={['flex', 'none', 'none']} />
+        <Divider display={['flex', 'flex', 'none']} />
 
         <Box textAlign={'justify'} w={['90%', '90%', '80%', '30%']} fontSize={['md', 'lg', 'lg']} >
           <Text mb={4}>
