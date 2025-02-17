@@ -33,8 +33,8 @@ export function LinkOptions() {
 
   return (
     <Box>
-      <Box display={['none', 'none', 'block']}>
-        <HStack spacing={10}>
+      <Box display={['none', 'none', 'none', 'block']}>
+        <HStack spacing={[5, 5, 10]}>
           {headerOptions.map((header, index) => (
             <Link key={index} href={header.href} mx={2}>
               <Text
@@ -52,8 +52,18 @@ export function LinkOptions() {
         </HStack>
       </Box>
 
-      <Box display={['block', 'block', 'none']}>
-        <IconButton colorScheme='blue' onClick={onOpen} aria-label="Hamburguer Menu Options" icon={<CiMenuBurger />} />
+      <Box display={['block', 'block', 'block', 'none']}>
+        <IconButton
+          aria-label="Hamburguer Menu Options"
+          onClick={onOpen}
+          size={'sm'}
+          icon={<CiMenuBurger />}
+          bgColor={'system-secondary'}
+          color={'background-secondary'}
+          _hover={{
+            opacity: 0.8
+          }}
+        />
         <Drawer placement={'bottom'} onClose={onClose} isOpen={isOpen}>
           <DrawerOverlay />
           <DrawerContent bg={'background'} borderRadius={'2xl'}>

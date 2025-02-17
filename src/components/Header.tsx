@@ -14,7 +14,6 @@ export function Header() {
       <Flex align={'center'}>
         <Link href={'#'} mx={2}>
           <Text
-            fontSize={['sm', 'md', 'lg']}
             color={'system-secondary'}
             fontWeight={600}
             _hover={{
