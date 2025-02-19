@@ -24,28 +24,6 @@ As seguintes tecnologias foram utilizadas na construção deste projeto:
 - Internacionalização (i18n) com suporte para **Português** e **Inglês**.
 - Responsividade.
 
-## 📷 Preview
-
-Adicione aqui uma imagem ou gif demonstrando a interface do portfólio.
-
-## ⚙️ Como Rodar o Projeto
-
-```bash
-# Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-# Acesse a pasta do projeto
-cd nome-do-projeto
-
-# Instale as dependências
-npm install
-
-# Execute o projeto
-npm run dev
-
-# O projeto será aberto em http://localhost:3000
-```
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para contribuir e aprimorar!
